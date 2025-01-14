@@ -1,0 +1,78 @@
+/* General Reset and Font Setup */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f0e7e7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #5d5b5b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #444;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #045ab0;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #0073e6;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5d5b5b;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    margin: 5px 0;
+}
+
+section ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #0073e6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
